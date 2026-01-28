@@ -984,7 +984,7 @@ a:hover {
     .myherowelcometext {
         font-size: 1.5rem;
         padding: 20px 30px;
-        transform: skew(-5deg); /* Less aggressive skew for small screens */
+        transform: skew(-5deg); 
     }
 
   
@@ -1012,13 +1012,12 @@ a:hover {
 
     .card-header.side-by-side {
         flex-direction: column;
-        height: auto; /* Remove the fixed 400px height */
+        height: auto; 
         padding-top: 20px;
     }
 
     .driver-bg-number {
-        font-size: 8rem; /* Shrink large background numbers */
-        top: -20px;
+        font-size: 8rem; 
     }
 
     .driver-name {
@@ -1046,7 +1045,7 @@ a:hover {
     }
 
     .internal-nav2 ul {
-        grid-template-columns: 1fr; /* Single column on mobile */
+        grid-template-columns: 1fr; /*just one line is better on the phone tiny screen*/
     }
 
     .theme-footer-box {
